@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webサイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="timer"></div>
+<body>
+    
+    <video src="img/istockphoto-1198475826-640_adpp_is.mp4" loop autoplay muted></video>
+    <audio loop autoplay="metadata" src="img/VSQSE_0825_morning_countryside_02.mp3"></audio>
+    <div id="navArea">
+        <nav>
+            <div class="inner">
+                <ul>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">サービス</a></li>
+                    <li><a href="#">事業内容</a></li>
+                    <li><a href="#">求人情報</a></li>
+                    <li><a href="#">会社紹介</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+<div class="toggle-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div id="mask"></div>
+
+<header>
+<div class="a">
+<img src="img/sydnyc.png">
+</div>
+
+</header>
+<main>
+<div class="box">
+    <p>
+        <label >
+            <span> </span>
+            <input type="text" class="text" name="name" size="10" maxlength="60" required placeholder="国内ツアー"><br>
+            
+            <ul>
+            <li><img src="img/IMG_0100.JPG" style="border: thick double #32a1ce;"></li>
+            
+            <li><img src="img/aditya-vyas-HCKVHAEbkus-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            <li><img src="img/shawnanggg-kcUJT1fd8hs-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            
+            <img src="img/jcs-chen-XCdaxCxT7EQ-unsplash.jpg" style="border: thick double #32a1ce;">
+            </ul>
+        
+        </label>
+    </p>
+    <p>
+        <label >
+            <span> </span>
+            <input type="text" class="text" name="name" size="10" maxlength="60" required placeholder="海外ツアー"><br>
+            <div class="tour">
+                
+            <ul>
+            <li><img src="img/wael-hneini-QJKEa9n3yN8-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            <li><img src="img/hu-chen-__cBlRzLSTg-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            <li><img src="img/rawan-yasser-Y6SPKbVCNHg-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            <li><img src="img/richard-tao-pTMbE0GVfsc-unsplash.jpg" style="border: thick double #32a1ce;"></li>
+            </ul>
+        
+           
+        </div>
+        </label>
+    </p>
+</div>
+   
+    
+</main>
+<hr color="white" size="40">
+<footer>
+    <form action="http" method="post" enctype="text/plain" id="World"> 
+        <p>
+            <label>
+                <span style="height: 50px; color: red; margin-left: 280px;margin:auto;font-size: 20px; font-family:'Courier New', Courier, monospace"> お問い合わせ！！</span>
+                
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> お名前：</span>
+                <input type="text" name="name" size="55" maxlength="55" required placeholder="大渕拓矢">　※必須
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> メールアドレス：</span>
+                <input type="email" name="email" size="25" maxlength="25" placeholder="xxxx@yyyy.com">　※必須
+            </label>
+        </p>
+        
+        <p>
+            <label>
+                <span> 郵便番号：</span>〒
+                <input type="text" name="zip" size="20" maxlength="8" placeholder="836-0099">　※必須
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> ご住所：</span>
+                <input type="text" name="address1" size="50" maxlength="50" placeholder="都道府県、市町町、番地">　※必須<br>
+                <span> 建物名と部屋番号:</span>
+                <input type="text" name="address2" size="50" maxlength="50" placeholder="アパート、マンション等の建物名と部屋番号"style="margin-top:8px;">　※必須
+                
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> 電話番号:</span>
+                <input type="tel" name="teld" size="20" maxlength="27" placeholder="000-0000-0000">　※必須
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> 性別：</span>
+                <input type="radio" name="sex" value="男性"checked>男性
+                <input type="radio" name="sex" value="女性">女性
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> ご年齢：</span>
+                <input type="radio" name="age" value="10代">10代
+                <input type="radio" name="age" value="20代"checked>20代
+                <input type="radio" name="age" value="30代">30代
+                <input type="radio" name="age" value="40代">40代
+                <input type="radio" name="age" value="50代">50代
+                <input type="radio" name="age" value="60代">60代
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> 人数：</span>
+                <select name="shokugyou">
+                    <option value="">人数選択してください</option>
+                    <option value="会社員">1名</option>
+                    <option value="自営業">2~4名</option>
+                    <option value="学生">４名以上</option>
+                </select>
+            </label>　※必須
+        </p>
+        <p>
+            <label>
+                <span> 日付：</span>
+                出発日：<input type="datetime-local" name="example2" value="2022-05-21T09:40">
+                帰国日：<input type="datetime-local" name="example2" value="2022-05-26T20:40">
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> ご希望エリア：</span>
+                <input type="checkbox" name="age" value=""checked>日本
+                <input type="checkbox" name="age" value="" >アジア
+                <input type="checkbox" name="age" value="" > オセアニア
+                <input type="checkbox" name="age" value="" >アメリカ
+                <input type="checkbox" name="age" value="">アフリカ
+                <input type="checkbox" name="age" value="">ヨーロッパ　※必須<br>
+                <span> その他ご希望:</span>
+                <input type="text" name="address2" size="50" maxlength="50" placeholder="電話もしくは、メールにてお問合せください。"style="margin-top:8px;height: 60px;">
+            </label>
+        </p>
+        <p>
+            <label>
+                <span> 希望プラン：</span>
+                <select name="shokugyou">
+                    <option value="">コースを選択してください</option>
+                    <option value="会社員">プレミアムコース</option>
+                    <option value="自営業">ゴージャスコース</option>
+                    <option value="学生">エレガントコース</option>
+                </select>
+            </label>　※必須
+        </p>
+        <p>
+            <label>
+                <span> 顔付きの身分証明書送付：</span>
+                <input type="file" name="example2" accept="image/*" style="width: 109px;">
+            </label>　※必須
+        </p>
+        <p>
+            <label>
+                <span> お支払い：</span>
+                <input type="radio" name="sex" value="男性"checked>現金
+            </label>
+            <label>
+                <input type="radio" name="sex" value="女性">クレジット
+            </label>
+            <label>
+                <input type="radio" name="sex" value="女性">銀行振り込み
+            </label>
+            <label>
+                <input type="radio" name="sex" value="女性">PayPay
+            </label>　※必須
+        </p>
+        
+    </form>
+    <div class="w">
+    <p><div id="btn" >
+        <input type="submit" value="送信する"form="World" style="color: red;">
+    </div>
+    </p> <input type="reset" value="リセット"form="World">
+    </div>
+<div class="finish">
+<div class="finish1">
+    
+    <h1>株式会社world trip</h1>
+    </div>
+    <div class="finish2">
+    <h4>〒836-0089 福岡県大牟田市新勝立町５丁目34-3</h4><br>
+    <h4>📱 080-3391-0983　　☎️ 0622-49-8980</h4><br>
+    <h5>西鉄電車「大牟田駅」より車１３分</h5>
+</div>
+
+
+</div>
+
+
+</footer>
+
+
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
